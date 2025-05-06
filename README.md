@@ -49,8 +49,13 @@ biblioteca-virtual/
 
 ### 📥 **Clone o projeto**
 
-git clone https://github.com/alessandre108/biblioteca-virtual.git
-cd biblioteca-virtual
+```bash
+git clone https://github.com/bibliotecavirtual1/biblioteca_virtual-frontend
+cd biblioteca_virtual
+npm install
+npm run dev
+Acesse: https://biblioteca-virtual1.netlify.app
+```
 
 📦 **Instale as dependências**
 
@@ -61,11 +66,6 @@ npm install
 No arquivo App.js, edite a constante:
 
 const API_URL = "http://localhost:5159/livrosvirtual"; // 
-
-▶️ **Inicie o projeto**
-
--npm run dev
--Acesse: http://localhost:5159
 
 💡 **Como Usar**
 
