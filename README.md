@@ -24,19 +24,20 @@ Uma aplicação web intuitiva feita com **React**, ideal para gerenciamento de l
 | **Hooks React** | `useState`, `useEffect` para controle de estado e efeitos  |
 | **API REST**    | Backend (ex: Spring Boot, Node.js ou JSON Server)          |
 
-🗂️ **Estrutura do Projeto**
+## 📁 **Estrutura do Projeto**
 
+```
 biblioteca-virtual/
-├── App.js               # Componente principal com lógica da aplicação
-├── components/
-│   ├── LivroCard.jsx    # Cartão visual de cada livro
-│   ├── Formulario.jsx   # Formulário de cadastro e edição
-│   
-├── pages/
-│   └── Home.jsx         # Página inicial da aplicação
-|   └── Notificacao.jsx  # Componente para exibir mensagens ao usuário
-├── index.css            # Estilos globais com Tailwind
+├── App.js                     # Componente principal com a lógica da aplicação
+├── index.css                  # Estilos globais com Tailwind
+├── components/                # Componentes reutilizáveis
+│   ├── LivroCard.jsx          # Cartão visual para exibição de livros
+│   ├── Formulario.jsx         # Formulário para cadastro/edição de livros
+├── pages/                     # Páginas principais da aplicação
+│   └── Home.jsx               # Página inicial com listagem e gerenciamento de livros
+│   └── Notificacao.jsx        # Exibe mensagens de sucesso/erro para o usuário
 └── ...
+```
 
 ## ⚙️ **Como Executar Localmente**
 
