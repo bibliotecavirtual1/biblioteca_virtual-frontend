@@ -44,6 +44,7 @@ biblioteca-virtual/
 ### 🔁 Pré-requisitos
 
 -Node.js instalado
+
 -Backend rodando na porta correta
 
 ### 📥 **Clone o projeto**
